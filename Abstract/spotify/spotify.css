@@ -1,0 +1,178 @@
+body {
+    color:white;
+    font-family: sans-serif;
+}
+
+.body-color {
+    background-color: black;
+}
+
+.content-color {
+    background-color: rgb(19, 18, 18);
+}
+
+.content-border {
+    border-radius: 10px;
+}
+
+#content {
+    margin: 5px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.content-box {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    height: 820px;
+    width: 70%;
+}
+
+/* LEFT CONTENT BOX STYLES */
+.left-content-box-top {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 140px;
+    width: 100%;
+}
+.left-content-box-bottom {
+    display: flex;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+/* RIGHT CONTENT BOX STYLES */
+.right-content-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.rcb-top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:70px;
+}
+.rcb-top-item {
+    margin:20px;
+}
+.left-arrow {
+    width:5%;
+}
+.right-arrow {
+    width:5%;
+}
+.search-box {
+    width: 50%;
+}
+.new-icon {
+    width:5%;
+}
+.friend-icon {
+    width:5%;
+}
+.me-icon {
+    width:5%;
+}
+.rcb-middle-section {
+    display: flex;
+    flex-direction: column;
+    height:720px;
+}
+.rcb-content {
+    display: flex;
+    flex-direction: row;
+}
+.good-evening {
+    flex-direction: column;
+    margin-left:20px;
+    margin-right:20px;
+    height:130px;
+}
+.ge {
+    padding:5px;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+}
+.made-for-you {
+    height:300px;
+}
+.top-mixes {
+    height:300px;
+}
+.ge-row-one {
+    flex-direction: row;
+    display: flex;
+    column-gap:10px;
+    margin-bottom:10px;
+}
+.ge-row-two {
+    flex-direction: row;
+    display: flex;
+    column-gap:10px;
+}
+
+/* FOOTER STLES */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.song-section {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.playback-section {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.settings-section {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bw {
+    width:33%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link {
+    margin:20px;
+}
+.icon {
+    margin-right:20px;
+}
+.clickable {
+    cursor: pointer;
+}
+.left {
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.tb {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
